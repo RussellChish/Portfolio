@@ -1,0 +1,102 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Global Styles
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+// Navigation
+.navbar {
+  .navbar-brand {
+    font-weight: bold;
+    position: fixed;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+// About Section
+#about {
+    #bout{
+        margin-top: 60px;
+        margin-left: 800px;
+        font-size: 800px;
+    }
+span{
+  color: var($primary-color);
+}
+.butt{
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 100%;
+}
+}
+
+// Projects Section
+#projects {
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+  }
+}
+
+// Contact Section
+#contact {
+  form {
+    max-width: 30px;
+    margin: 0 auto;
+  }
+}
+// Footer styles
+.footer {
+  min-height: 20vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+
+  .list-inline-item {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+// Responsive Styles
+@media (max-width: 767.98px) {
+  #about {
+    .row {
+      flex-direction: column-reverse;
+    }
+  }
+}

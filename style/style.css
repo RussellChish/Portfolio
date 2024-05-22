@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  position: fixed;
+}
+.navbar .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+.navbar .nav-link:hover {
+  color: #007bff;
+}
+
+#about #bout {
+  margin-top: 60px;
+  margin-left: 800px;
+  font-size: 800px;
+}
+#about span {
+  color: var(#007bff);
+}
+#about .butt {
+  margin-top: 50px;
+  padding: 40px;
+  border-radius: 100%;
+}
+
+#projects .card {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+#projects .card:hover {
+  transform: translateY(-5px);
+}
+#projects .card .card-title {
+  font-weight: bold;
+}
+
+#contact form {
+  max-width: 30px;
+  margin: 0 auto;
+}
+
+.footer {
+  min-height: 20vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer p {
+  margin-bottom: 0;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #ccc;
+}
+.footer .list-inline-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+  #about .row {
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=style.css.map */
